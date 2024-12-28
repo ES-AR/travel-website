@@ -1,6 +1,64 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
+/* variables */
+:root{
+    --primary: #25A59E;
 }
+
+/* reset */
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* base styles */
 body{
-    margin: 0 auto;
+    overflow-x: hidden;
+    font-size: 16px;
 }
+.button{
+    width: 147px;
+    height: 54px;
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 6px 12px;
+    color: #fff;
+    display: inline-block;
+}
+.button:hover{
+    color: var(--primary);
+    background: #ddf3f2;
+}
+/* fonts */
+h1,h2,h3,h4{
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: normal;
+}
+h1,h4{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 3.5em;
+}
+h3{
+    font-size: 2.2em;
+}
+
+
+
+/* small tablet styles */
+@media screen and (min-width:620px){
+
+}
+
+/* large tablets & laptops */
+@media screen and (min-width:960px){
+
+}
+
+/* desktop styles */
+@media screen and (min-width:1200px){
+
+}
+
