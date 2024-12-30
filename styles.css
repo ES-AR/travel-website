@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* variables */
 :root {
     --primary: #25A59E;
@@ -46,15 +50,15 @@ h1 {
 .couples {
     position: relative;
     width: 103%;
-    top: 20px;
+    top: 23px;
     height: auto;
     z-index: 2;
 }
 
 .ellipse {
     position: absolute;
-    width: 99%;
-    top: 39px;
+    width: 95%;
+    top: 49px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -64,7 +68,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: auto;
-    top: -91px;
+    top: -94px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 0;
@@ -108,25 +112,76 @@ p{
 /* mobile display */
 
 body{
-    margin: 0 auto;
+    background: #e9e6e6;
+    margin: 0;
 }
 
 .destination-grid {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.destination-section,
+.offer-section,
+.documentation-section,
+.feedback-section {
+    margin: 0 10px;
+    padding: auto;
+}
+
+.offer-section h2 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.offer-section p {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 0;
+}
+
+.guide-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.upper-border-card {
+    border-top: 5px solid var(--primary);
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.guide-cards {
+    border-left: 1px solid #ddd;
+    background: #ffffff;
 }
 
 .images{
-    width: 338.67px;
+    width: 100%;
+    height: auto;
     margin: 0;
 }
 .cards {
     border: 1px solid #ddd;
     padding: 10px;
-    overflow: hidden;
+    background: #ffffff;
 }
 
-.cards .images, .doc-vid-img {
+.cards{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.guide-cards, .doc-vid-img {
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -143,17 +198,21 @@ body{
 }
 
 .card-content p{
+    font-size: 16px;
     margin: 0 0 10px 0;
     padding: 0;
 }
 
 .card-content h3 {
+    font-size: 1.2em;
+    font-weight: bold;
     margin-bottom: 5px;
     padding: 0;
 }
 
 .location-icon {
     width: 24px;
+    margin-right: 5px;
     margin-bottom: -4px;
     display: inline-block;
 }
