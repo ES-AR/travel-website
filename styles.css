@@ -29,7 +29,6 @@ body {
 
 .header {
     text-align: center;
-    /* position: relative; */
     padding: 0;
 }
 
@@ -37,6 +36,7 @@ h1 {
     font-size: 1.8em;
 }
 
+/* first picture positioning */
 .header-images {
     position: relative;
     width: 100%;
@@ -74,6 +74,30 @@ h1 {
     z-index: 0;
 }
 
+/* second picture positioning */
+.traveling-couple {
+    position: relative;
+    text-align: center;
+    max-width: 300px;
+}
+
+.couples-2 {
+    width: 100%;
+}
+
+.shape {
+    position: absolute;
+    top: 125px;
+    left: 25px;
+    z-index: -1;
+}
+
+.shape {
+    max-width: 300px;
+}
+
+
+/* last button */
 .button{
     width: 147px;
     height: 54px;
@@ -89,7 +113,7 @@ h1 {
     background: #ddf3f2;
 }
 
-/* fonts */
+/* fonts size*/
 h1, h2, h3, h4{
     font-weight: normal;
 }
@@ -105,16 +129,25 @@ h3{
 p{
     font-size: 1.1em;
 }
+
 .welcome-text h2{
     text-align: center;
 }
 
-/* mobile display */
+/* heading font family */
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* body display */
 
 body{
     background: #e9e6e6;
     margin: 0;
 }
+
+/* sections */
 
 .destination-grid {
     display: grid;
@@ -132,7 +165,6 @@ body{
 
 .offer-section h2 {
     font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0;
@@ -145,10 +177,17 @@ body{
     padding-top: 0;
 }
 
+/* guide cards */
+
 .guide-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
+}
+
+.guide-grid p, h3 {
+    text-align: left;
+    margin: 0;
 }
 
 .upper-border-card {
@@ -157,10 +196,80 @@ body{
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
+.upper-border-card a {
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+.upper-border-card a, .upper-border-card img {
+    margin-bottom: -12px;
+}
 
 .guide-cards {
     border-left: 1px solid #ddd;
     background: #ffffff;
+}
+
+.green-guide-cards {
+    background: var(--primary);
+}
+
+.green-guide-cards a {
+    color: #fff;
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.green-guide-cards img {
+    margin-bottom: -12px;
+}
+
+/* feature cards */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.feature-card h2, .feature-card p {
+    margin: 0;
+    padding: 5px;
+}
+
+.feature-card h2 {
+    font-size: 2.2em;
+}
+
+/* documentation-section */
+
+.documentation-section h2 {
+    font-size: 2.2em;
+}
+
+.h2-documentation {
+    text-align: center;
+
+}
+
+/* footer */
+
+.footer-part p {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+/* social media icons */
+.flex-container-1 {
+    display: flex;
+    width: 50%;
+}
+
+/* links */
+.flex-container-2 {
+    display: flex;
 }
 
 .images{
