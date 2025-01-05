@@ -420,18 +420,3 @@ body{
 .couples-2{
     width: 350px;
 }
-/* small tablet styles */
-@media screen and (min-width:620px){
-
-}
-
-/* large tablets & laptops */
-@media screen and (min-width:960px){
-
-}
-
-/* desktop styles */
-@media screen and (min-width:1200px){
-
-}
-
