@@ -437,7 +437,6 @@ body{
 
     .destination-section h2 {
         text-align: center;
-        font-size: 50px;
     }
 
     .destination-section p {
@@ -496,13 +495,14 @@ body{
 
 }
 
+/* font size */
 @media screen and (min-width: 960px) {
     body {
         font-size: 18px;
     }
 
     h1 {
-        font-size: 200px;
+        font-size: 150px;
     }
 
     h2 {
