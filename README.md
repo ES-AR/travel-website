@@ -1,7 +1,7 @@
-#Travel Website
+Travel Website
 A visually appealing travel website designed to inspire and assist users in exploring destinations around the world. It features a destination recommendations and interactive elements for enhanced user engagement.
 
-#Table of Contents
+Table of Contents
 •	Introduction
 •	Live Demo
 •	Features
