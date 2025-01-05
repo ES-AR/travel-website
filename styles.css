@@ -425,6 +425,10 @@ body{
         text-align: center;
     }
 
+    .banner-image-container {
+        width: 750px;
+    }
+
     .banner-flex{
         padding-bottom: 200px;
     }
@@ -445,6 +449,10 @@ body{
 
     .destination-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-content p {
+        text-align: left;
     }
 
     .guide-grid {
@@ -508,9 +516,4 @@ body{
     h2 {
         font-size: 24px;
     }
-
-    .banner-image-container {
-        width: 750px;
-    }
-
 }
