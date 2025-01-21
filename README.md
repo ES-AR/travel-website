@@ -8,7 +8,7 @@
             <li><a href="#technologies-used">Technologies Used</a></li>
             <li><a href="#setup-and-installation">Setup and Installation</a></li>
             <li><a href="#usage">Usage</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#screenshots">Loom video</a></li>
             <li><a href="#license">License</a></li>
             <li><a href="#authors">Author(s)</a></li>
 	</ul>
@@ -66,8 +66,8 @@
         </section>
 
 <section id="screenshots">
-            <h2>Screenshots</h2>
-            <p>No screenshots at the moment</p>
+            <h2>Loom video</h2>
+            <p><a href="https://www.loom.com/share/af510dc74da54abfa56148afa12ee455?sid=efe5d4c6-63db-42da-8d0a-80386bc36485">Checkout a Loom video</a></p>
         </section>
 
 <section id="license">
