@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* variables */
+:root {
+    --primary: #25A59E;
+}
+
+/* reset */
+
+a {
+    text-decoration: none;
+    color: #313131;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+li {
+    list-style-type: none;
+}
+
+/* base styles */
+p, h1, h2, h3 {
+    padding: 1.1rem;
+}
+body {
+    font-family: 'Gill Sans', sans-serif;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.site-nav p {
+    padding: 0;
+}
+
+.menu {
+    display: inline-block;
+    height: 24px;
+    padding: 1%px;    
+}
+
+.header {
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+/* splash animation style*/
+body {
+    position: relative;
+}
+
+#splash-animation {
+    width: 100%;
+    height: 900px;
+    background: var(--primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#splash-animation {
+    top: -900px;
+    animation: logo-animation 2s 0.5s ease reverse;
+}
+
+@keyframes logo-animation {
+    0% {opacity: 0;}
+    60% {transform: translateY(900px);}
+    100% {transform: translateY(850px); opacity: 2;}
+}
+
+
+/* first picture positioning */
+.header-images {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image-container {
+    position: relative;
+    width: 500px;
+    height: 250px;
+}
+
+.banner-image-container img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+.couples {
+    z-index: 0;
+    top: 5px;
+    left: 0;
+}
+
+.ellipse {
+    z-index: -1;
+    top: 12px;
+    left: 0;
+}
+
+.blurry {
+    z-index: -2;
+    top: -156px;
+    left: 0;
+}
+
+/* second picture positioning */
+.traveling-couple {
+    position: relative;
+    text-align: center;
+    max-width: 300px;
+}
+
+.couples-2 {
+    width: 100%;
+}
+
+.shape {
+    position: absolute;
+    top: 125px;
+    left: 25px;
+    z-index: -1;
+}
+
+.shape {
+    max-width: 300px;
+}
+
+
+/* last button */
+.button{
+    width: 147px;
+    height: 54px;
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 6px 12px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+}
+
+.button:hover{
+    color: var(--primary);
+    background: #ddf3f2;
+}
+
+/* fonts size*/
+h1, h2, h3, h4{
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 2.2em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+.welcome-text h2{
+    text-align: center;
+}
+
+/* heading font family */
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* body display */
+
+body{
+    background: #e9e6e6;
+    margin: 0;
+}
+
+/* sections */
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.destination-section,
+.offer-section,
+.documentation-section,
+.feedback-section {
+    margin: 0 10px;
+    padding: auto;
+}
+
+.offer-section h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.offer-section p {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 0;
+}
+
+/* guide cards */
+
+.guide-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.guide-grid p, h3 {
+    text-align: left;
+    margin: 0;
+}
+
+.upper-border-card {
+    border-top: 5px solid var(--primary);
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.upper-border-card a {
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+.upper-border-card a, .upper-border-card img {
+    margin-bottom: -12px;
+}
+
+.guide-cards {
+    border-left: 1px solid #ddd;
+    background: #ffffff;
+}
+
+.green-guide-cards {
+    background: var(--primary);
+}
+
+.green-guide-cards a {
+    color: #fff;
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.green-guide-cards img {
+    margin-bottom: -12px;
+}
+
+/* feature cards */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.feature-card h2, .feature-card p {
+    margin: 0;
+    padding: 5px;
+}
+
+.feature-card h2 {
+    font-size: 2.2em;
+}
+
+/* documentation-section */
+
+.documentation-section h2 {
+    font-size: 2.2em;
+}
+
+.h2-documentation {
+    text-align: center;
+
+}
+
+/* footer */
+
+.footer-part p {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+/* social media icons */
+.media-icon {
+    width: 50px;
+    margin: 5px;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* links */
+.flex-container-2 {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 2px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.flex-container-2 li {
+    margin: 10px;
+}
+
+/* span colored text */
+.span-color {
+    color: var(--primary);
+}
+
+
+.images{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.cards {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.guide-cards, .doc-vid-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-holder{
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.card-content{
+    margin-left: 10px;
+}
+
+.card-content p{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.card-content h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.location-icon {
+    width: 24px;
+    margin-right: 5px;
+    margin-bottom: -4px;
+    display: inline-block;
+}
+
+.shape{
+    width: 350px;
+}
+.couples-2{
+    width: 350px;
+}
