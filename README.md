@@ -8,7 +8,7 @@
             <li><a href="#technologies-used">Technologies Used</a></li>
             <li><a href="#setup-and-installation">Setup and Installation</a></li>
             <li><a href="#usage">Usage</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#video">Loom Video</a></li>
             <li><a href="#license">License</a></li>
             <li><a href="#authors">Author(s)</a></li>
 	</ul>
@@ -65,8 +65,8 @@
             </ol>
         </section>
 
-<section id="screenshots">
-            <h2>Screenshots</h2>
+<section id="video">
+            <h2>Loom Video</h2>
             <p>No screenshots at the moment</p>
         </section>
 
