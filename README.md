@@ -67,7 +67,7 @@
 
 <section id="video">
             <h2>Loom Video</h2>
-            <p>No screenshots at the moment</p>
+            <p><a href="https://www.loom.com/share/af510dc74da54abfa56148afa12ee455?sid=efe5d4c6-63db-42da-8d0a-80386bc36485">Checkout a Loom video</a></p>
         </section>
 
 <section id="license">
