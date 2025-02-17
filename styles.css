@@ -671,12 +671,12 @@ body{
     }
 
     .banner-container {
-        font-size: 75px;
         width: 850px;
     }
 
     .banner-container h1 {
         text-align: center;
+        font-size: 130px;
         padding: 0 0;
     }
 
@@ -717,6 +717,14 @@ body{
 
     .destination-section p {
         text-align: center;
+    }
+
+    .doc-text {
+        width: 620px;
+    }
+
+    .doc-text h2 {
+        margin: 0 auto;
     }
 
     .destination-grid {
